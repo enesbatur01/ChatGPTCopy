@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.Scanner;
 
 public class d01IOExcept {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws RuntimeException{
         try {
-            int age = 1;
+            int age = -1;
 
 
             if (age < 0) {
